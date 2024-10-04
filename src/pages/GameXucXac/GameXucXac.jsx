@@ -10,8 +10,8 @@ export default function GameXucXac() {
   const [mangXucXac, setMangXucXac] = useState([1, 6, 1]);
   const [luaChon, setLuaChon] = useState();
   // usf
-  const [soBanThang, setSoBanThang] = useState();
-  const [soLuotChoi, setsoLuotChoi] = useState();
+  const [soBanThang, setSoBanThang] = useState(0);
+  const [soLuotChoi, setsoLuotChoi] = useState(0);
   const [ketQua, setKetQua] = useState();
 
   let handlePlayGame = () => {

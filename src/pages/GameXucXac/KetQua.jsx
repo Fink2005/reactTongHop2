@@ -29,9 +29,9 @@ export default function KetQua({
         Play Game
       </button>
       {luaChon && <h1>Lựa chọn :{luaChon}</h1>}
-      {soLuotChoi && <h1>soLuotChoi :{soLuotChoi}</h1>}
-      {soBanThang && <h1>so ban thang :{soBanThang}</h1>}
-      {ketQua && <h1>ket qua :{ketQua}</h1>}
+      <h1>soLuotChoi :{soLuotChoi}</h1>
+      <h1>ket qua : {ketQua}</h1>
+      <h1>so ban thang :{soBanThang}</h1>
     </div>
   );
 }
